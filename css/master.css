@@ -1,0 +1,375 @@
+* {
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background: #100e17;
+}
+
+.thread-sink-container {
+  color: white;
+  background: #100e17;
+  height: 4300px;
+}
+.thread-sink-header {
+  width: 100%;
+  height: 570px;
+  margin-top: 30px;
+  text-align: center;
+  background: url("../svg/undraw_solution_mindset_34bi.svg") no-repeat center;
+  background-size:contain;
+  border-bottom: 1px solid grey;
+}
+.thread-sink-top-header {
+  width: 100%;
+  height: 10vh;
+  background: rgba(0,0,0,0.0);
+  position: fixed;
+  z-index: 99999999;
+}
+
+.thread-sink-logo {
+  width: 35%;
+  float: left;
+  margin-top: -1vh;
+}
+.thread-sink-logo h3{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.thread-pin {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: hotpink;
+  position: absolute;
+}
+.thread-sink-nav_bar {
+  width: 65%;
+  height: 10vh;
+  float: right;
+}
+.thread-sink-nav_bar  ul  {
+  float: right;
+  margin-top: 1vh;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.thread-sink-nav_bar  ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  padding: 1vh;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.thread-sink-nav_bar  ul li:hover {
+  border-bottom: 1px solid #e6e6e6;
+  transform: skewY(-10deg);
+  color: hotpink;
+  border-color: hotpink;
+}
+.thread-sink-bg-text {
+  padding-top: 300px;
+  /* width: 50%;
+  height: 30vh;
+  top:50%;
+  left: 50%;
+ transform: translate(-50%, -15%); */
+
+}
+.thread-sink-bg-text p {
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  color: hotpink;
+}
+.thread-sink-bg-text span {
+  padding: 1vh;
+  cursor: pointer;
+  transition: 0.5s all ease;
+
+}
+.thread-sink-bg-text  span:hover {
+  border-bottom: 1px solid #e6e6e6;
+  transform: skewY(-10deg);
+  color: hotpink;
+  border-color: hotpink;
+}
+/* Style the Body of the site */
+.thread-sink-body {
+  background:  #100e17;
+  height: 3150px;
+  width: 100%;
+}
+/* Search Bar */
+.thread-search-bar {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.thread-search-bar input {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  font-size: 25px;
+  background: none;
+  border-color: hotpink;
+  outline-color: hotpink;
+}
+.thread-search-bar input:focus {
+  background: none;
+  border-color: hotpink;
+  outline-color: hotpink;
+  color: white;
+}
+
+/* Blog Grid */
+.thread-blog-grid {
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+.thread-blog-show {
+  width: 60%;
+  float: left;
+  height: 500px;
+  border: 1px solid grey;
+}
+.thread-blog-info {
+  width: 40%;
+  float: right;
+  height: 500px;
+  border: 1px solid grey;
+}
+.thread-blog-title {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+.thread-blog-title:hover {
+  color: hotpink;
+  transform: perspective(1.003);
+}
+.thread-blog-about-box {
+  border: 1px solid grey;
+  height: 300px;
+  width: 100%;
+}
+.thread-blog-about-heading {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-decoration: underline;
+  text-decoration-color: hotpink;
+}
+.thread-blog-about-box p{
+  padding: 10px;
+  text-align: justify;
+}
+.thread-blog-link-out {
+  height: 100px;
+  width: 60%;
+  margin: 0 auto;
+
+}
+.thread-blog-link-out a{
+  color: white;
+  text-decoration:none;
+}
+.thread-blog-link-out button {
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  border:1px solid hotpink;
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s all ease;
+}
+.thread-blog-link-out button:hover {
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  background: rgba(0,0,0,0.1);;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translateY(10px);
+}
+
+
+/*Footer Style */
+
+.thread-sink-footer {
+  height: 300px;
+  width: 100%;
+  background:rgba(0,0,0,0.2);
+}
+.thread-sink-footer-package {
+  height: 300px;
+  width: 100%;
+
+}
+.thread-sink-footer_block_1 {
+
+  width: 33.3%;
+  float: left;
+  height: 300px;
+}
+.thread-sink-footer_block_1 h4  {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: hotpink;
+  text-decoration-style: double;
+}
+.thread-sink-enquiries-li:hover {
+  border: 0px !important;
+}
+.thread-sink-enquiries ul {
+  width: 100% !important;
+}
+.thread-sink-enquiries li i {
+  color: hotpink;
+  transition: 1s all ease;
+}
+
+.thread-sink-footer_block_2 {
+  width: 33.3%;
+  float: left;
+  height: 300px;
+}
+.thread-sink-footer_block_2 h4{
+ text-align: center;
+ padding-top: 60px;
+ font-size: 15px;
+ text-decoration: underline;
+ text-decoration-color: hotpink;
+ text-decoration-style: double;
+}
+.thread-sink-footer_block_2 ul{
+ width: 50%;
+ float: left;
+}
+.thread-sink-footer_block_2 ul:last-of-type{
+ width: 50%;
+ float: right;
+}
+.thread-sink-footer_block_2 ul li{
+ list-style: none;
+ cursor: pointer;
+ transition: 1s all ease;
+}
+.thread-sink-footer_block_2 ul li:hover{
+ color: hotpink;
+ text-decoration: underline;
+ text-decoration-color: hotpink;
+ transform: scale(1.003);
+}
+
+.thread-sink-footer_block_3 {
+  width: 33.3%;
+  float: left;
+  height: 300px;
+  text-align: center;
+}
+.thread-sink-logo-footer {
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+}
+.thread-sink-logo-footer  ul {
+  width: 30%;
+}
+.thread-sink-logo-footer  li {
+  list-style: none;
+  transition: 1s all ease;
+  cursor: pointer;
+}
+.thread-sink-logo-footer  li:hover {
+  color: hotpink;
+  text-decoration: underline;
+  text-decoration-color: hotpink;
+  transition: scale(1.003);
+}
+.thread-sink-social {
+  height: 200px;
+  width: 100%;
+}
+.thread-sink-social ul {
+  text-align: center;
+}
+.thread-sink-social li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+.thread-sink-social li i {
+  font-size: 25px;
+  transition: 1s all ease;
+}
+
+.thread-sink-social h4  {
+  text-align: center;
+  margin: 0;
+  padding-top: 60px;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: hotpink;
+  text-decoration-style: double;
+}
+.thread-sink-social li:hover {
+  color: hotpink;
+}
+.thread-sink-social li:hover i {
+  color: hotpink;
+  border-bottom:1px solid hotpink;
+  transform: scale(1.003);
+}
+.thread-sink-condition  {
+  width: 100%;
+  height: 50px;
+}
+.thread-sink-condition ul li{
+  padding: 0px 20px 10px 10px;
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+.thread-sink-condition ul li:hover{
+  border-bottom: 1px solid hotpink;
+  color: hotpink;
+  transform: skewY(-20deg);
+}
+.thread-sink-copyright{
+ width: 100%;
+ padding: 10px;
+ height: 50px;
+}
+/*Cookies Style */
+.thread-sink-top-cookies {
+  bottom: 0;
+  position: fixed;
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 10vh;
+}
+.thread-sink-top-cookies p{
+  padding: 10px;
+  padding-left: 20px;
+}
+.thread-read-more {
+  color: hotpink;
+  cursor: pointer;
+}
+.thread-close {
+  float: right;
+  color: hotpink;
+  cursor: pointer;
+}

@@ -1,0 +1,846 @@
+body {
+	background:white;
+	font-family: COMIC SANS MS;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.whole {
+	background:#e6e6e6;
+	font-family: COMIC SANS MS;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+}
+
+/*.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
+
+.image1 {
+    position: relative;  
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.image2 {
+    position: relative;
+  
+    -webkit-animation:spin 4s linear;
+    -moz-animation:spin 4s linear ;
+    animation:spin 4s linear ;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.image3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+/*---------------------------header Styling ------------------------------------------------------------------*/
+.section_1 {
+	margin-top: -20px;
+	margin-bottom: -135px;
+
+}
+
+.highlight {
+	color: orange;
+
+}
+
+#header {
+	color: red;
+	text-shadow: 2px 2px 1px #FF0000, 1px 2px 8px red; color: #ffffff;
+
+
+}
+
+.main_header a {
+	text-decoration: none;
+}
+
+#header_img {
+	width: 35px;
+	border: 2px solid white;
+	border-radius: 35px;
+	margin-left: 8px;
+    border-bottom-color: orange;
+    margin-bottom: 30px;
+	margin-left: -24px;
+
+}
+
+
+.timerSty {
+	color: brown;
+	float: right; 
+	margin-top: 20px; 
+	margin-right: 65px;
+	font-family: COMIC SANS MS;
+}
+ #clock {
+		height: 16px;
+		width: 20px;
+		margin-right:3px;
+	}
+
+
+
+#header_img_contact {
+	width: 17px;
+	border: 2px solid white;
+	border-radius: 35px;
+	
+}
+
+#guideline {
+	font-size: 12px;
+}
+
+.prove {
+    margin-left: 670px;
+	margin-top: -18px;
+}
+
+
+#header_img_con {
+	width: 30px;
+	border: 2px solid white;
+	border-radius: 35px;
+	border-bottom-color: orange;
+	z-index: 99;
+	display: none;
+
+}
+
+.main_header {
+    background: lightgrey;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px solid orange;
+    height: 100px;
+    margin: 0;
+
+}
+
+#logo_word {
+ font-size: 15px;
+ padding: 10px;
+ margin: 10px
+ margin-left:10px;
+}
+
+
+.header_middle {
+    background: #393E41;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px solid orange;
+
+}
+
+
+
+
+/*---------------------nav styling--------------------*/
+.header_nav {
+	padding: 0;
+	margin: 0;
+}
+
+.header_nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px;
+	margin: 5px;
+}
+
+
+.header_nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-family: COMIC SANS MS;
+}
+
+.header_nav a:hover {
+	border-bottom: 3px solid orange;	
+    color: red;
+}
+
+
+.header_nav a:focus {
+	color: red;	
+
+}
+
+
+#header_ul{
+	color: orange;
+}
+
+
+/*-------------------------------subing styling -----------------------------*/
+.menu_dropdw {
+	font-size: 8px;
+     position: absolute;
+     background: grey;
+     width:15%; 
+     display: none; 
+     border-radius: 2px;
+     z-index: 999;
+     margin-top: 2px;
+     border-top: orange solid 3px;
+     /* this padding is to stabilize the drop down menu */	
+    }
+
+.header_nav .menu_dropdw ul { 	 
+     padding: 6px;
+  
+    }
+
+.header_nav .menu_dropdw ul li a { 	 
+     color: white; 
+     font-size: 12px;
+  
+    }
+
+.header_nav .menu_dropdw ul li { 
+	margin-top: -8px;
+	padding-right: 30px;
+	z-index: 9999;
+	 
+    }
+
+
+.header_nav .menu_dropdw ul li a:hover { 
+     color: red;
+	 
+    }
+
+/* always take note when doing mega memnu to use the li pushing to the hover and then finalizing the point at the site of action */
+
+.header_nav li:hover .menu_dropdw{
+	display: block;
+
+}
+
+#cat:hover {
+	border:0;
+}
+
+
+
+
+/*---------------------call dropdown  styling--------------------*/
+
+#header_img_call {
+	width: 35px;
+	border: 2px solid white;
+	border-radius: 35px;
+	cursor: pointer;
+	float: right;
+	font-weight: bold;
+
+}
+
+.cal_nav {
+	margin-top: 0px;
+	margin-right: -390px;
+	float: right;
+}
+
+.cal_nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px;
+	margin: 5px;
+}
+
+
+.cal_nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-family: COMIC SANS MS;
+}
+
+.cal_nav a:hover {
+	border-bottom: 3px solid orange;	
+    color: red;
+}
+
+
+.cal_nav a:focus {
+	color: red;	
+
+}
+
+
+#header_ul{
+	color: orange;
+}
+
+
+/*-------------------------------subing styling -----------------------------*/
+.call_dropdw {
+	font-size: 8px;
+     position: absolute;
+     background: grey;
+     width:15%; 
+     display: none;
+     border-radius: 2px;
+     z-index: 999;
+     margin-top: 40px;
+     margin-left: -128px;
+     border-top: orange solid 3px;
+     height: 43px;
+     /* this padding is to stabilize the drop down menu */	
+    }
+
+.cal_nav .call_dropdw ul { 	 
+     padding: 6px;
+  
+    }
+
+.cal_nav .call_dropdw ul li a { 	 
+     color: white; 
+     font-size: 12px;
+  
+    }
+
+.cal_nav .call_dropdw ul li { 
+	margin-top: -8px;
+	padding-right: 30px;
+	z-index: 9999;
+	 
+    }
+
+
+.cal_nav .call_dropdw ul li a:hover { 
+     color: red;
+	 
+    }
+
+/* always take note when doing mega memnu to use the li pushing to the hover and then finalizing the point at the site of action */
+
+.cal_nav li:hover .call_dropdw{
+	display: block;
+
+}
+
+#cat:hover {
+	border:0;
+}
+
+
+
+/*-------------------------------------button------------------------------------*/
+#get_sign_up_button {
+	color: white;
+	background: red;
+	padding: 4px;
+	cursor: pointer;
+	float: right;
+	margin-top: -40px;
+	margin-right: 75px;
+	font-weight: bold;
+	border-radius: 5px 100px 20px 100px;
+	padding-left: 10px;
+}
+#get_login_button {
+	color: white;
+	background: red;
+	border-radius: 5px;
+	padding: 4px;
+	cursor: pointer;
+	float: right;
+	margin-top: -40px;
+	font-weight: bold;
+	padding-left: 12px;
+	padding-right: 10px;
+	border-radius: 5px 100px 20px 100px;
+	margin-right: 10px;
+}
+
+#get_sign_up_button:hover {
+	color: white;
+	background: black;
+
+}
+#get_login_button:hover {
+	color: white;
+	background: black;
+	
+}
+
+#showcase {
+	background: url("../images/1.jpg") no-repeat;
+	background-size: 100% 70%;
+	height: 500px;
+	color: white;
+	text-shadow: 2px 2px 1px #FF0000, 1px 2px 81px red; color: #ffffff;
+
+}
+
+#showcase_head_word {
+	padding-left: 10px;
+}
+
+#notice {
+	padding-left: 10px;
+}
+
+.show_case_info {
+	text-align: center;
+	margin-top: 150px;
+}
+
+#showcase_img_icon {
+	width: 30px;
+	border: 2px solid white;
+	border-radius: 35px;
+	margin-bottom: -10px;
+	margin-right: 10px;
+	margin-left: -20px;
+}
+
+#get_started_button {
+	color: white;
+	background: red;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px 100px 20px 100px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#get_started_button:hover {
+	color: white;
+	background: black;
+	}
+
+.prove1 {
+    margin-left: 1160px;
+	margin-top: -15px;
+}
+
+#showcase_img_con {
+	width: 30px;
+	border: 2px solid white;
+	border-radius: 35px;
+	border-bottom-color: orange;
+	z-index: 99;
+
+
+}
+
+/*--------------------------container styling------------------------------------*/
+
+.container {
+	width: 99%;
+	margin: auto;
+	height: auto;
+	background: white;
+
+	
+}
+
+#bottom_showcase {
+	background: white;
+	width: 100%
+
+}
+
+#bottom_showcase1 {
+	background: #393E41;
+	height: 50px;
+	width:70%;
+    float: left;
+    color: white;
+
+}
+
+#bottom_showcase2 {
+	float: right;
+	height: 100px;
+	width: 30%;
+	position:relative;
+	font-family: sans-serif;
+	background: url(../images/25.gif) center no-repeat #fff;
+	background-size: 10% 30%;
+}
+
+
+#advert_link1 {
+	float:right;
+	color: black;
+	background: lightgrey;
+	opacity: 0.5;
+	position: absolute;
+	margin-top: 0px;
+    margin-left: 25px;
+}
+
+#advert_link2 {
+	float:right;
+	color: black;
+	background: lightgrey;
+	opacity: 0.5;
+	margin-top: 0;
+	position: absolute;
+	margin-left: 25px;
+
+}
+
+#advert_link3 {
+	float:right;
+	color: black;
+	background: lightgrey;
+	opacity: 0.5;
+	position: absolute;
+	margin-top: 0;
+    
+}
+
+#advert_link4 {
+	float:right;
+	color: black;
+	background: lightgrey;
+	opacity: 0.5;
+	position: absolute;
+	margin-top: 0;
+
+}
+
+
+#advertize_1{
+	float: right;
+	background: url(../images/25.gif) center no-repeat #fff;
+	background-size: 10% 30%;
+	height: 50px;
+	width: 20%;
+	position:relative;
+
+}
+
+#advertize_1_img {
+    height: 100px;
+	width: 100%;
+	z-index: 9;
+}
+
+#giphy {
+	width: 250px;
+	margin-top: -66px;
+	height: 100px;
+	z-index: 9;
+}
+
+.ad_new1 {
+	padding-top: -60px;
+	text-align: center;
+	font-size: 12px;
+	text-shadow: 2px 2px 1px lightgrey, 100px 241px 810px blue; color: white;
+}
+
+#word {
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.site_name1 {
+	color: red;
+	text-shadow: 2px 2px 1px #FF0000, 1px 2px 8px red; color: #ffffff;
+
+}
+
+
+
+/*----------------------------conner rite styling -=-------------------------------*/
+
+#coner_rite {
+	background: grey; 
+	height: 100px;
+	margin-bottom: 15px;
+
+}
+
+#coner_rite_btn {
+	width: 28%;
+	float: right;
+	color: white;
+}
+
+
+
+#tap_icon {
+	color: white;
+	background: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#tap_icon:hover {
+	color: white;
+	background: black;
+	
+}
+
+
+#coner_rite2 {
+	background: grey;
+	height: 270px;
+	width: 25.6%;
+	float: right;
+	margin-top: -560px;
+	position: relative;
+	margin-right: 255px;
+}
+
+#coner_rite3 {
+	height: 265px;
+	width: 21%;
+	float: right;
+	margin-top: -560px;
+	position: relative;
+	
+}
+#coner_rite4 {
+	background: url(../images/25.gif) center no-repeat #fff;
+	background-size: 5% 25%;/*----------------------------------back_adver Loder----------------------------*/
+	height: 85px;
+	width: 48.3%;
+	float: right;
+	margin-top: -290px;
+	position: relative;
+	font-family: sans-serif;
+}
+
+#coner_rite4_advert{
+    height: 85px;
+	width: 100%;
+}
+
+#coner_rite6_advert{
+    height: 270px;
+	width: 100%;
+}
+
+#coner_rite7_advert{
+    height: 270px;
+	width: 100%;
+}
+
+#coner_rite5 {
+	background: lightgrey;
+	height: 190px;
+	width: 48.3%;
+	float: right;
+	margin-top: -190px;
+	position: relative;
+	
+}
+
+
+#coner_rite6 {
+	height: 270px;
+	width: 13.5%;
+	float: right;
+	margin-top: -560px;
+	position: relative;
+	margin-right: 562px;
+	background: url(../images/25.gif) center no-repeat #fff;
+	background-size: 15% 10%;
+}
+
+#coner_rite7 {
+	height: 270px;
+	width: 13.5%;
+	float: right;
+	margin-top: -270px;
+	position: relative;
+	margin-right: 562px;
+	background: url(../images/25.gif) center no-repeat #fff;
+	background-size: 15% 10%;
+}
+
+
+.crack {
+	width: 100%
+	margin:0;
+	padding: 0;
+
+}
+
+.receiver_reg_sty {
+	margin:10px;
+	font-size: 10px;
+	color: white;
+}
+
+
+#receiver_reg_img_sty {
+	background: darkgrey;
+	padding-left: -200px;
+	width: 180px;
+	cursor: pointer;
+
+}
+
+#input_reg_sty {
+	padding:4px;
+	border-radius: 10px;
+	text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+	border-color: brown;
+	
+}
+
+#pick {
+	padding-bottom: 0px;
+}
+
+#corner_btn {
+	cursor: pointer;
+	padding: 3px;
+	width: 80px;
+	color: white;
+	background: red;
+	border-radius: 5px 100px 20px 100px;
+	font-weight: bold;
+	float: right;
+
+}
+
+#corner_btn:hover {
+	cursor: pointer;
+	background: black;
+	
+}
+
+
+#goto_list {
+	font-size: 10px; 
+	float: left; 
+	list-style: none; 
+	padding: 10px;
+	margin-left: -px;
+	
+
+}
+
+#goto_list a {
+	text-decoration: none;
+	color: lightgreen;
+}
+
+#goto_list a:hover {
+	background: black;
+	color: white;
+	border: 1px dashed white;
+
+}
+
+
+
+/*-------------------------email_sender styling----------------------------------*/
+
+
+#email_form {
+	background: darkred;
+	width: 35%;
+	background-size: 100% 100%;
+	color: white;
+	position: relative;
+	font-size: 10px;
+}
+
+#table {
+	padding-right: 250px;
+}
+
+
+
+#input_sty {
+	padding:4px;
+	border-radius: 10px;
+	text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+	border-color: brown;
+	
+}
+
+#input_textarea_sty {
+	border-radius: 10px;
+	text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+	border-color: brown;
+	width: 48%;
+}
+
+#table_sub {
+	cursor: pointer;
+	padding: 5px;
+	width: 80px;
+	color: white;
+	background: red;
+	border-radius: 5px 100px 20px 100px;
+	font-weight: bold;
+	margin-left: -220px;
+
+}
+
+
+#table_sub:hover {
+	
+	background: black;
+	
+}
+
+
+#header_email {
+	text-align: center;
+	text-shadow: 2px 2px 1px lightgrey, 100px 241px 810px blue; 
+	color: white; 
+	font-family: COMIC SANS MS; 
+	padding-right: 200px;
+}
+
+
+
+
+
+
+
+/*-------------------------footer styling----------------------------------------*/
+
+.footer {
+	 background: #393E41;
+	 height: 80px;
+}

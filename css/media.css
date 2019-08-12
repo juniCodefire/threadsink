@@ -1,0 +1,20 @@
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  .thread-sink-footer {
+    height: 900px;
+    width: 100%;
+    background:rgba(0,0,0,0.2);
+
+  }
+  .thread-sink-footer_block_1,
+  .thread-sink-footer_block_2,
+  .thread-sink-footer_block_3 {
+    width: 100%;
+  }
+
+  .thread-sink-social li {
+    padding: 30px;
+  }
+}

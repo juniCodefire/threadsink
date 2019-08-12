@@ -1,0 +1,183 @@
+
+/*special css for IE style */
+@media all and (-ms-high-contrast:none)
+         {
+
+  /*show_case styling for xplorer */
+            .show_case_info .section_1 {
+                  margin-top: -21px;
+                  margin-bottom: -150px;
+                  }/* IE10 */
+
+    *::-ms-backdrop, .section_1 {
+                 margin-top: -21px;
+                 margin-bottom: -150px;
+                }
+
+          .show_case_info {
+                  text-align: center;
+                  margin-top: 120px;
+                } /* IE10 */
+
+    *::-ms-backdrop, .show_case_info {
+                  text-align: center;
+                  margin-top: 120px;
+                }/* IE11 */
+
+                #coner_rite2 {
+                background: grey;
+                  height: 245px;
+                  width: 25.6%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  margin-right: 255px;
+                }
+
+
+    *::-ms-backdrop, #coner_rite2 {
+                  background: grey;
+                  height: 245px;
+                  width: 25.6%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  margin-right: 255px;
+                }
+
+
+                #coner_rite3 {
+                  background: lightgrey;
+                  height: 243px;
+                  width: 21%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  
+                }
+
+    *::-ms-backdrop, #coner_rite3 {
+                  background: lightgrey;
+                  height: 243px;
+                  width: 21%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  
+                }
+
+
+                .section_1 {
+                  margin-top: -20px;
+                  margin-bottom: -135px;
+                }
+
+    *::-ms-backdrop, .section_1 {
+                  margin-top: -20px;
+                  margin-bottom: -135px;
+                }
+                  
+                  #coner_rite4 {
+                  background: darkgrey;
+                  height: 85px;
+                  width: 50%;
+                  float: right;
+                  margin-top: -310px;
+                  position: relative;
+                  font-family: sans-serif;
+                  background-size: 100% 100%;
+                  
+                }
+
+    *::-ms-backdrop,  #coner_rite4 {
+                  background: darkgrey;
+                  height: 85px;
+                  width: 48.3%;
+                  float: right;
+                  margin-top: -280px;
+                  position: relative;
+                  font-family: sans-serif;
+                  background-size: 100% 100%;
+                  
+                }
+
+
+
+                 #coner_rite5 {
+                  background: lightgrey;
+                  height: 180px;
+                  width: 48.3%;
+                  float: right;
+                  margin-top: -180px;
+                  position: relative;
+                  
+                }
+
+    *::-ms-backdrop, #coner_rite5 {
+                 background: lightgrey;
+                  height: 180px;
+                  width: 48.3%;
+                  float: right;
+                  margin-top: -180px;
+                  position: relative;
+                  
+                }
+
+             #coner_rite6 {
+                  background: grey;
+                  height: 245px;
+                  width: 13.5%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  margin-right: 560px;
+                }
+
+  *::-ms-backdrop,   #coner_rite6 {
+                  background: grey;
+                  height: 245px;
+                  width: 13.5%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  margin-right: 560px;
+                }
+
+
+
+             #coner_rite7 {
+                  background: url(../images/25.gif) center no-repeat #fff;
+                  background-size: 15% 10%;
+                  height: 260px;
+                  width: 13.5%;
+                  float: right;
+                  margin-top: -260px;
+                  position: relative;
+                  margin-right: 560px;
+                }
+
+       *::-ms-backdrop, #coner_rite7 {
+                  background: url(../images/25.gif) center no-repeat #fff;
+                  background-size: 15% 10%;
+                  height: 260px;
+                  width: 13.5%;
+                  float: right;
+                  margin-top: -260px;
+                  position: relative;
+                  margin-right: 560px;
+                }
+
+               #coner_rite6_advert{
+                  height: 250px;
+                  width: 100%;
+                }
+
+ *::-ms-backdrop, #coner_rite7_advert{
+                  height: 260px;
+                  width: 100%;
+                }
+
+
+               
+
+       }

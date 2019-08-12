@@ -1,0 +1,175 @@
+/*-------------------------sign_sender styling----------------------------------*/
+
+body {
+	background:#e6e6e6;
+	font-family: COMIC SANS MS;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.whole {
+	background:grey;
+	font-family: COMIC SANS MS;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+
+}
+#sign_form {
+	background: darkred;
+	width: 50%;
+	background-size: 100% 100%;
+	color: white;
+	position: relative;
+	font-size: 12px;
+	margin: auto;
+	border-radius: 300px 0px 0px 300px;
+}
+
+
+#log_form {
+	background: darkred;
+	width: 50%;
+	background-size: 100% 100%;
+	color: white;
+	position: relative;
+	font-size: 12px;
+	margin: auto;
+	border-radius: 300px 0px 0px 300px;
+	padding-bottom: 13px;
+}
+
+
+
+
+#sign_sign {
+	text-align: center;
+	text-shadow: 2px 2px 1px lightgrey, 100px 241px 810px blue; 
+	color: white; 
+	font-family: COMIC SANS MS; 
+	padding-left: 60px;
+}
+#sort {
+	width: 70%;
+	margin: auto;
+	padding-left: 40px;
+	
+
+}
+
+#sign_input_sty {
+	padding:4px;
+	border-radius: 10px;
+	text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+	border-color: brown;
+	
+}
+
+
+#sign_table_sub {
+	cursor: pointer;
+	padding: 5px;
+	width: 80px;
+	color: white;
+	background: red;
+	border-radius: 5px 100px 20px 100px;
+	font-weight: bold;
+	margin-left: 100px;
+
+}
+
+
+
+#sign_table_sub:hover {
+	
+	background: black;
+	
+}
+
+
+
+#get_sign_up_home_button {
+	color: white;
+	background: red;
+	padding: 4px;
+	cursor: pointer;
+	float: right;
+	margin-top: -40px;
+	margin-right: 95px;
+	font-weight: bold;
+	border-radius: 5px 100px 20px 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#get_login_home_button {
+	color: white;
+	background: red;
+	border-radius: 5px;
+	padding: 4px;
+	cursor: pointer;
+	float: right;
+	margin-top: -40px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px 100px 20px 100px;
+	margin-right: 10px;
+}
+
+#get_login_home_button_tweak {
+	color: white;
+	background: red;
+	border-radius: 5px;
+	padding: 4px;
+	cursor: pointer;
+	float: right;
+	margin-top: -40px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px 100px 20px 100px;
+	margin-right: 10px;
+}
+
+
+#get_sign_up_home_button:hover {
+	color: white;
+	background: black;
+
+}
+#get_login_home_button:hover {
+	color: white;
+	background: black;
+	
+}
+
+#get_login_home_button_tweak:hover {
+	color: white;
+	background: black;
+	
+}
+
+/*----------------------------------------------------log in styling----------------------------------------------------------*/
+#log_log {
+	text-align: center;
+	text-shadow: 2px 2px 1px lightgrey, 100px 241px 810px blue; 
+	color: white; 
+	font-family: COMIC SANS MS; 
+	padding-left: 100px;
+}
+
+#forgot_pass_sty {
+	float: right;
+	margin-right: -100px;
+}
+
+
+#forgot_pass_sty a {
+	color: white;
+}
+
+#rem {
+	float: left;
+}

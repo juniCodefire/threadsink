@@ -1,0 +1,150 @@
+
+	 	
+	 	/* Chrome only: */
+         @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+                           #coner_rite2 {
+                  background: grey;
+                  height: 245px;
+                  width: 25.6%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  margin-right: 255px;
+                }
+
+               #coner_rite3 {
+                  background: lightgrey;
+                  height: 243px;
+                  width: 21%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  
+                }
+               #coner_rite4 {
+                  background: darkgrey;
+                  height: 85px;
+                  width: 48.3%;
+                  float: right;
+                  margin-top: -280px;
+                  position: relative;
+                  font-family: sans-serif;
+                  background-size: 100% 100%;
+                                  
+                }
+
+                #coner_rite5 {
+                 background: lightgrey;
+                  height: 180px;
+                  width: 48.3%;
+                  float: right;
+                  margin-top: -180px;
+                  position: relative;
+                  
+                }
+
+
+                   #coner_rite6 {
+                  height: 245px;
+                  width: 13.5%;
+                  float: right;
+                  margin-top: -525px;
+                  position: relative;
+                  margin-right: 562px;
+                  background: url(../images/25.gif) center no-repeat #fff;
+                  background-size: 15% 10%;
+                }
+
+
+                #coner_rite7 {
+                  height: 260px;
+                  width: 13.5%;
+                  float: right;
+                  margin-top: -260px;
+                  position: relative;
+                  margin-right: 562px;
+                  background: url(../images/25.gif) center no-repeat #fff;
+                  background-size: 15% 10%;
+                }
+
+                #coner_rite6_advert{
+                  height: 250px;
+                  width: 100%;
+                }
+
+  #coner_rite7_advert{
+                  height: 260px;
+                  width: 100%;
+                }
+
+
+      			.receiver_reg_sty {
+                    margin:10px;
+                    font-size: 10px;
+                    color: white;
+                  }
+
+            #receiver_reg_img_sty {
+      	           background: darkgrey;
+      	           padding-left: -200px;
+      	           width: 180px;
+                  }
+
+            #input_reg_sty {
+                    padding:4px;
+                    border-radius: 10px;
+                    text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+                    border-color: brown;
+              
+                  }
+
+          #input_textarea_sty {
+      	           border-radius: 10px;
+      	           text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+      	           border-color: brown;
+      	           width: 48%;
+                  }
+                  #bottom_showcase1 {
+          				background: #393E41;
+          				height: 50px;
+          				width:70%;
+        			    float: left;
+        			    color: white;
+
+      		     	}
+          			#word {
+          				padding-left: 10px;
+          				font-size: 12px;
+          			}
+          			.prove {
+          			  margin-left: 670px;
+          				margin-top: -18px;
+          			}
+          			#coner_rite_btn {
+          				width: 28%;
+          				float: right;
+          				color: white;
+          			}
+          			#guideline {
+          				font-size: 12px;
+          			}
+                
+
+                #input_sty {
+                  padding:4px;
+                  border-radius: 10px;
+                  text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+                  border-color: brown;
+                  padding-right: 80px;
+                }
+
+                 #input_textarea_sty {
+                  border-radius: 10px;
+                  text-shadow: 2px 1px 1px white, 1px 2px 8px black; color: black;
+                  border-color: brown;
+                  width: 35%;
+                }
+
+                
+
+                   }
